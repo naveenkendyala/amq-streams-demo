@@ -11,8 +11,8 @@
 #Create New Project
 oc new-project myproject
 
-# Install AMQ Streams Operator [provided by Red Hat] from operator hub
-# Install prometheus operator from operator hub
+# Install AMQ Streams Operator [Provided by Red Hat] from operator hub
+# Install Prometheus Operator [Community] from operator hub in "myproject"
 
 #Create the cluster with [ZooKeeper, Kafka, Kafka Exporter, Entity Operator, Prometheus Metrics]
 oc apply -f ocp-install-examples/amq-streams-2.2.0/examples/metrics/kafka-metrics.yaml
