@@ -8,6 +8,8 @@
 
 
 
+
+
 #Pre-Requisite
 #01# Download and unzip From Source https://access.redhat.com/jbossnetwork/restricted/softwareDownload.html?softwareId=79741
 #02# amq-streams-2.5.0-ocp-install-examples/examples/metrics/kakfka-metrics.yaml :: adjust pv sizes to be smaller (the default is 100 GB)
